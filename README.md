@@ -15,23 +15,23 @@ pip install git+https://github.com/bqio/libcli.git
 Добавить новую книгу
 
 ```bash
-py -m libcli add [title] [author] [year]
+libcli add [title] [author] [year]
 ```
 
 Удалить книгу по её ID
 
 ```bash
-py -m libcli delete [ID]
+libcli delete [ID]
 ```
 
 Изменить статус книги
 
 ```bash
-py -m libcli change [ID] [status(выдана,в наличии)]
+libcli change [ID] [status(выдана,в наличии)]
 ```
 
 Поиск книги
 
 ```bash
-py -m libcli search [query]
+libcli search [query]
 ```
