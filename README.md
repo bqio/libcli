@@ -6,11 +6,17 @@
 
 ```bash
 py -m venv venv
-venv/bin/activate
+source venv/bin/activate
 pip install git+https://github.com/bqio/libcli.git
 ```
 
 ### Команды
+
+Показать список всех книг
+
+```bash
+libcli show
+```
 
 Добавить новую книгу
 
