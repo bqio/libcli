@@ -56,7 +56,7 @@ def show_books(args) -> None:
 
 
 # main function/parse args
-if __name__ == "__main__":
+def main():
     main_parser = argparse.ArgumentParser(description="Library CLI")
     subcommands = main_parser.add_subparsers()
 
