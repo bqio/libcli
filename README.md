@@ -41,3 +41,9 @@ libcli change [ID] [status(выдана,в наличии)]
 ```bash
 libcli search [query]
 ```
+
+### Тесты
+
+```bash
+py tests.py -v
+```

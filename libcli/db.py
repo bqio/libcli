@@ -75,7 +75,6 @@ def db_change_book_status(id: UUID, status: BookStatus) -> None:
         if str(book.id) == str(id):
             book.status = status
             founded = True
-            print(book)
     if not founded:
         raise Exception(f"ID `{id}` Not found")
     write_books(books)
